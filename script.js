@@ -73,7 +73,7 @@ function autoPlay() {
 
 function resetTimer() {
     clearInterval(timer);
-    timer = setInterval(autoPlay, 3000);
+    timer = setInterval(autoPlay, 4000);
 }
 
-let timer = setInterval(autoPlay, 3000);
+let timer = setInterval(autoPlay, 4000);
